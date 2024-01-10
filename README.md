@@ -9,3 +9,4 @@ python语法、方法、包用法测试，不定期更新
 3. mytest/mytools 工具函数
 4. mytest/article 文章
 5. mytest/practice 练习题
+6. mytest.readsrc 源码阅读
