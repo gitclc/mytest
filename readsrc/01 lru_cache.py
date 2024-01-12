@@ -87,7 +87,7 @@ def _lru_cache_wrapper(user_function, maxsize, typed, _CacheInfo):
 
         def wrapper(*args, **kwds):
             nonlocal misses  # 获取局部变量
-            misses += 1  # misses加一，作用未知
+            misses += 1  # 未命中次数加1
             result = user_function(*args, **kwds)  # 直接调用函数，获取结果
             return result  # 返回结果
 
