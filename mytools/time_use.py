@@ -33,6 +33,6 @@ def countdown(sec: int):
 if __name__ == '__main__':
     a = countdown(10)  # 创建时倒计时即开始
     time.sleep(2)
-    a.reset_time()  # 重置倒计时开始时间
+    # a.reset_time()  # 重置倒计时开始时间
     while not a():
         time.sleep(0.1)
